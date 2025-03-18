@@ -1,0 +1,16 @@
+---
+title: "My First R Markdown Report"
+author: "Dua Kamal"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+## Introduction
+This is an R Markdown document demonstrating basic R functionality.
+
+## Data Summary
+We analyze the built-in `mtcars` dataset.
+
+```{r}
+# Display basic summary statistics
+summary(mtcars)
